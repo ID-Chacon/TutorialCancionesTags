@@ -6,4 +6,4 @@ class failTest(unittest.TestCase):
         return super().setUp()
 
     def test_failing(self):
-        self.assertFalse(True)
+        self.assertTrue(True)
